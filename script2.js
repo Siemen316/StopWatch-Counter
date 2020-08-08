@@ -4,7 +4,7 @@ let lowerCounter = document.getElementById('lowerCounter');
 let reset = document.getElementById('reset');
 let para = document.getElementById('para');
 let count = 0;
-
+ 
 addCounter.addEventListener('click',incrementCounter);
 function incrementCounter(){
     counter.innerText = count+1;
